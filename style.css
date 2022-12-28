@@ -1,0 +1,37 @@
+#body {
+    border: 1px solid black;
+    width: 250px;
+    height: 470px;
+    background-color: none;
+
+}
+
+#body {
+    margin: 0 auto;
+}
+
+#screen {
+    border: 1px solid black;
+    width: 230px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+span {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 14px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#none, #ntwo {
+    margin-top: 7px;
+    font-family: Poppins;
+}
