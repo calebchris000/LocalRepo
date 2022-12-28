@@ -1,8 +1,8 @@
 #body {
-    border: 1px solid black;
+    border: 1px solid rgb(55, 158, 127);
     width: 250px;
     height: 470px;
-    background-color: none;
+    background-color: rgb(128, 214, 188);
 
 }
 
@@ -11,27 +11,32 @@
 }
 
 #screen {
-    border: 1px solid black;
+    border: 1px solid noe;
     width: 230px;
     height: 150px;
     margin: 0 auto;
     margin-top: 10px;
+    background-color: white;
 }
 
 span {
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
     margin: 0 auto;
     align-items: center;
     margin-top: 25px;
-    margin-left: 14px;
+    margin-left: 10px;
     vertical-align: middle;
     text-align: center;
+    background-color: white;
 }
 
 #none, #ntwo {
-    margin-top: 7px;
+    margin-top: 10px;
     font-family: Poppins;
+    font-weight: 500;
+    color: rgb(8, 92, 67);
 }
