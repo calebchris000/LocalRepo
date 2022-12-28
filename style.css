@@ -2,13 +2,14 @@
     border: 1px solid rgb(55, 158, 127);
     width: 250px;
     height: 470px;
-    background-color: rgb(128, 214, 188);
+    background-color: rgb(44, 114, 93);
 
 }
 
 #body {
     margin: 0 auto;
 }
+
 
 #screen {
     border: 1px solid noe;
@@ -17,6 +18,23 @@
     margin: 0 auto;
     margin-top: 10px;
     background-color: white;
+}
+#input, #output{
+    font-family: Poppins;
+    font-size: 2em;
+}
+#input{
+    position: relative;
+    top:10px;
+    left: -5px;
+    direction: rtl;
+}
+
+#output{
+    position: relative;
+    top:40px;
+    left: -5px;
+    direction: rtl;
 }
 
 span {
@@ -32,6 +50,8 @@ span {
     vertical-align: middle;
     text-align: center;
     background-color: white;
+    user-select: none;
+    transition: all .1s ease;
 }
 
 #none, #ntwo {
@@ -39,4 +59,9 @@ span {
     font-family: Poppins;
     font-weight: 500;
     color: rgb(8, 92, 67);
+}
+
+span:active{
+    background-color: rgb(189, 189, 189);
+    border-color: rgb(44, 114, 93);
 }
