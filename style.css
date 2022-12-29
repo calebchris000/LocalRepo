@@ -22,6 +22,7 @@
 #input, #output{
     font-family: Poppins;
     font-size: 2em;
+    user-select: none;
 }
 #input{
     position: relative;
@@ -37,6 +38,34 @@
     direction: rtl;
 }
 
+#icon{
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+
+
+#squareroot{
+    background-image: url(./sqr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px 17px;
+    
+}
+#square{
+    background-image: url(./sq.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px 17px;
+}
+#division{
+    background-image: url(./div.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 17px;
+}
 span {
     border: 1px solid white;
     border-radius: 5px;
