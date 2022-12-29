@@ -1,13 +1,11 @@
 #body {
+    position: absolute;
+    border-radius: 6px;
     border: 1px solid rgb(55, 158, 127);
     width: 250px;
-    height: 470px;
+    height: 540px;
     background-color: rgb(44, 114, 93);
 
-}
-
-#body {
-    margin: 0 auto;
 }
 
 
@@ -19,61 +17,50 @@
     margin-top: 10px;
     background-color: white;
 }
-#input, #output{
+
+#input,
+#output {
     font-family: Poppins;
     font-size: 2em;
     user-select: none;
 }
-#input{
-    position: relative;
-    top:10px;
-    left: -5px;
-    direction: rtl;
+
+#input {
+    position: absolute;
+    top: 29px;
+    right: 20px;
 }
 
-#output{
-    position: relative;
-    top:40px;
-    left: -5px;
-    direction: rtl;
+#output {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+
 }
 
-#icon{
+#icon {
     width: 30px;
     height: 25px;
     display: inline-block;
-
 }
 
 
 
-#squareroot{
-    background-image: url(./sqr.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 17px 17px;
-    
-}
-#square{
+#square {
     background-image: url(./sq.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 17px 17px;
 }
-#division{
-    background-image: url(./div.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20px 17px;
-}
+
+
+
 span {
     border: 1px solid white;
     border-radius: 5px;
     width: 45px;
     height: 45px;
     display: inline-block;
-    margin: 0 auto;
-    align-items: center;
     margin-top: 25px;
     margin-left: 10px;
     vertical-align: middle;
@@ -83,14 +70,14 @@ span {
     transition: all .1s ease;
 }
 
-#none, #ntwo {
+#none {
     margin-top: 10px;
     font-family: Poppins;
     font-weight: 500;
     color: rgb(8, 92, 67);
 }
 
-span:active{
+span:active {
     background-color: rgb(189, 189, 189);
     border-color: rgb(44, 114, 93);
 }
