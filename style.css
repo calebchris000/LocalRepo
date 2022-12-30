@@ -37,13 +37,13 @@ body {
 #input {
     position: absolute;
     top: 29px;
-    right: 20px;
+    right: 12px;
 }
 
 #output {
     position: absolute;
     top: 100px;
-    right: 20px;
+    right: 12px;
 
 }
 
