@@ -14,10 +14,14 @@ const numbers={
   '-':'-',
   'x':'*',
   '÷':'/',
-  'M':'%'
+  'M':'%',
+  '/':'/',
+  '*':'*'
 }
-
 let item ='';
+let docu = document.getElementById('input').innerHTML;
+
+document.getElementById('output').innerHTML= docu
 
 function getID(id){
   item += id
@@ -55,9 +59,21 @@ function plusMinus(){
 
 }
 
-let num='4+2'
+document.addEventListener('keydown', function(event){
 
-console.log(num.split('mod'))
+  if(event.keyCode >= 48 && event.keyCode <=57 || event.keyCode >=96 && event.keyCode<=111){
+    item+=event.key
+    document.getElementById('input').innerHTML =item
+  }
+  else if(event.keyCode == 8){
+    del()
+  }
+  else if(event.keyCode ==13){
+   solve()
+  }
+  
+ 
+})
 
 
 

@@ -1,21 +1,29 @@
+body {
+    background: linear-gradient(90deg, #0996e7, #0ebbda);
+}
+
 #body {
-    position: absolute;
+    position: relative;
     border-radius: 6px;
     border: 1px solid rgb(55, 158, 127);
     width: 250px;
     height: 540px;
     background-color: rgb(44, 114, 93);
+    margin: 0 auto;
+    overflow: hidden;
+
 
 }
 
 
 #screen {
-    border: 1px solid noe;
+    border: 1px solid none;
     width: 230px;
     height: 150px;
     margin: 0 auto;
     margin-top: 10px;
-    background-color: white;
+    background-color: #117761;
+    overflow: hidden;
 }
 
 #input,
@@ -23,6 +31,7 @@
     font-family: Poppins;
     font-size: 2em;
     user-select: none;
+    color: white;
 }
 
 #input {
