@@ -48,11 +48,6 @@ body {
 
 }
 
-#icon {
-    width: 30px;
-    height: 25px;
-    display: inline-block;
-}
 
 
 
@@ -77,6 +72,7 @@ span {
     text-align: center;
     background-color: white;
     user-select: none;
+    align-items: center;
     transition: all .1s ease;
 }
 
