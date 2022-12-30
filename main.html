@@ -1,5 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div id="body">
+        <div id="screen">
+            <div id="input">0</div>
+            <div id="output">0</div>
+            <div id="pee"></div>
+        </div>
+
+        <span id="C" onclick="refresh()">
+            <div id="none">C</div>
+        </span>
+        <span id="delete" onclick="del()">
+            <div id="none">↩</div>
+        </span>
+        <span id="percent" onclick="percent()">
+            <div id="none">﹪</div>
+        </span>
+        <span id="division" onclick="getID('÷')">
+            <div id="none">÷</div>
+        </span>
+
+        <span id="seven" onclick="getID('7')">
+            <div id="none">7</div>
+        </span>
+        <span id="eight" onclick="getID('8')">
+            <div id="none">8</div>
+        </span>
+        <span id="nine" onclick="getID('9')">
+            <div id="none">9</div>
+        </span>
+        <span id="multiplication" onclick="getID('x')">
+            <div id="none">X</div>
+        </span>
+
+
+        <span id="four" onclick="getID('4')">
+            <div id="none">4</div>
+        </span>
+        <span id="five" onclick="getID('5')">
+            <div id="none">5</div>
+        </span>
+        <span id="six" onclick="getID('6')">
+            <div id="none">6</div>
+        </span>
+        <span id="plus" onclick="getID('+')">
+            <div id="none">+</div>
+        </span>
+
+
+        <span id="one" onclick="getID('1')">
+            <div id="none">1</div>
+        </span>
+        <span id="two" onclick="getID('2')">
+            <div id="none">2</div>
+        </span>
+        <span id="three" onclick="getID('3')">
+            <div id="none">3</div>
+        </span>
+        <span id="subtraction" onclick="getID('-')">
+            <div id="none">-</div>
+        </span>
+
+        <span id="doubleZero" onclick="getID('00')">
+            <div id="none">00</div>
+        </span>
+        <span id="0" onclick="getID('0')">
+            <div id="none">0</div>
+        </span>
+        <span id="equals" onclick="solve()">
+            <div id="none">=</div>
+        </span>
+        <span id="decimal" onclick="getID('.')">
+            <div id="none">.</div>
+        </span>
+    </div>
+    </div>
+    
+</body>
+
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
