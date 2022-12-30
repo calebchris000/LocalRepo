@@ -41,8 +41,10 @@ function refresh() {
 //The equal function itself. Takes the input and evaluates it, then put the result to the output
 function solve() {
   let splited = item.split('').map(x => numbers[x]).join('')
-  document.getElementById('output').innerHTML = eval(splited)
-  item = eval(splited)
+  let sub = eval(splited.substring(0,11))
+
+  document.getElementById('output').innerHTML = Number.isInteger(sub)? sub: sub.toFixed(2)
+  item = eval(sub)
 }
 
 //Emulates the delete key function. Deletes the last input
